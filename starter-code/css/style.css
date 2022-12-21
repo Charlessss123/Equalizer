@@ -1,7 +1,7 @@
 body {
   background-image: url("../assets/bg-main-mobile.png");
   font-family: "IBM Plex Sans";
-  width: 375px;
+  width: 100vw;
 }
 
 * {
@@ -15,220 +15,235 @@ html {
 }
 
 
-.container {
-  margin: auto;
-  width: 375px;
-}
 
-.header {
-  width: 146.09px;
-  height: 32px;
-  position: relative;
-  top: 40px;
-  left: 25px;
-  margin-bottom: 64px;
-}
-
-.pattern-right img {
-  display: none;
-}
-
-.section-one {
-  position: relative;
-  width: 327px;
-  height: 320px;
-  left: 24px;
-}
-
-.title {
-  width: 327px;
-  height: 144px;
-  font-family: "IBM Plex Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  margin-bottom: 20px;
-  letter-spacing: -0.454545px;
-
-  color: #191826;
-}
-
-.message {
-  width: 327px;
-  height: 156px;
-  font-family: "IBM Plex Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-}
-
-.showcase {
-  width: 375px;
-  height: 600px;
-  position: relative;
-  top: 166px;
-  left: 0px;
-  background-color: #191826;
-  border-radius: 12px;
-}
-
-.showcase-pattern {
-  width: 280px;
-}
-
-.phone img {
-  width: 208.97px;
-  height: 430px;
-  position: relative;
-  bottom: 520px;
-  left: 82px;
-}
-
-.card-pattern {
-  width: 280px;
-  height: 420px;
-  position: relative;
-  left: 48px;
-}
-
-.card {
-  width: 375px;
-  height: 546px;
-  position: absolute;
-  top: 380px;
-  background-color: #fa7453;
-  border-radius: 12px;
+/* Small Devices */
+  .container {
+    margin: auto;
+    width: 375px;
+    position: relative;
+  }
   
-}
+  .header {
+    width: 146.09px;
+    height: 32px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+    margin-bottom: 64px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .pattern-right img {
+    display: none;
+  }
+  
+  .section-one {
+    position: relative;
+    width: 327px;
+    height: 320px;
+    left: 24px;
+  }
+  
+  .title {
+    width: 327px;
+    height: 144px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    letter-spacing: -0.454545px;
+  
+    color: #191826;
+  }
+  
+  .message {
+    width: 327px;
+    height: 156px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .showcase {
+    width: 375px;
+    height: 600px;
+    position: relative;
+    top: 166px;
+    left: 0px;
+    background-color: #191826;
+    border-radius: 12px;
+  }
+  
+  .showcase-pattern {
+    width: 280px;
+  }
+  
+  .phone img {
+    width: 208.97px;
+    height: 430px;
+    position: relative;
+    bottom: 520px;
+    left: 82px;
+  }
+  
+  .card-pattern {
+    width: 280px;
+    height: 420px;
+    position: relative;
+    left: 48px;
+  }
+  
+  .card {
+    width: 375px;
+    height: 546px;
+    position: absolute;
+    top: 380px;
+    background-color: #fa7453;
+    border-radius: 12px;
+    
+  }
+  
+  .card-content {
+    color: #fcfaf9;
+  }
+  
+  #num {
+    margin-right: 16px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    width: 79px;
+    height: 52px;
+    margin-bottom: 40px;
+    margin-left: 42px;
+  }
+  
+  #text {
+    height: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 70px;
+    letter-spacing: -0.2px;
+    position: relative;
+    bottom: 14px;
+    right: 15px;
+  }
+  
+  button {
+    width: 296px;
+    height: 61px;
+    border-radius: 10px;
+    margin-left: 42px;
+    margin-top: 10px;
+  }
+  
+  .btn-1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
 
-.card-content {
-  color: #fcfaf9;
-}
-
-#num {
-  margin-right: 16px;
-  font-weight: 700;
-  font-size: 65px;
-  line-height: 52px;
-  width: 79px;
-  height: 52px;
-  margin-bottom: 40px;
-  margin-left: 42px;
-}
-
-#text {
-  height: 32px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  width: 70px;
-  letter-spacing: -0.2px;
-  position: relative;
-  bottom: 14px;
-  right: 15px;
-}
-
-button {
-  width: 296px;
-  height: 61px;
-  border-radius: 10px;
-  margin-left: 42px;
-  margin-top: 10px;
-}
-
-.btn-1 {
-  margin-bottom: 16px;
-}
-
-#head {
-  width: 302px;
-  height: 40px;
-  font-family: "IBM Plex Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-  margin-left: 36px;
-  margin-bottom: 12px;
-  margin-top: 48px;
-}
-
-#info {
-  width: 302px;
-  height: 140px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 36px;
-  margin-left: 36px;
-}
-
-.btn-1:hover {
-  background-color: #66e2dc;
-}
-
-.btn-2:hover {
-  background-color: #fa7453;
-}
-
-.btn-info1 {
-  width: 142px;
-  height: 32px;
-  position: relative;
-  left: 77px;
-  font-size: 18px;
-}
-
-.btn-info2 {
-  width: 180px;
-  height: 32px;
-  position: relative;
-  left: 59px;
-  font-size: 18px;
-}
-
-.footer {
-  margin-top: 600px;
-  position: absolute;
+ 
+  
+  #head {
+    width: 302px;
+    height: 40px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-left: 36px;
+    margin-bottom: 12px;
+    margin-top: 48px;
+  }
+  
+  #info {
+    width: 302px;
+    height: 140px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 36px;
+    margin-left: 36px;
+  }
+  
+   button .btn-1:hover {
+    background-color: #66e2dc;
+    color: #66e2dc;
+  }
+  
+  .btn-2:hover {
+    background-color: #fa7453;
+  }
+  
+  .btn-info1 {
+    width: 142px;
+    height: 32px;
+    position: relative;
+    left: 77px;
+    font-size: 18px;
+  }
+  
+  .btn-info2 {
+    width: 180px;
+    height: 32px;
+    position: relative;
+    left: 59px;
+    font-size: 18px;
+  }
+  
+  .footer {
+    margin-top: 320px;
+    position: absolute;
+  
+  
+  }
+  
+  .footer h1 {
+    width: 146.09px;
+    height: 32px;
+    margin-bottom: 32px;
+    position: relative;
+    margin-left: 25px;
+    top: 200px;
+  }
+  
+  .footer p {
+    margin-bottom: 64px;
+    height: 105px;
+    width: 327px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 24px;
+    position: relative;
+    top: 200px;
+  }
+  
+  .handles{
+    margin-left: 30px;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 80px;
+    position: relative;
+    top: 150px;
+  }
 
 
-}
 
-.footer h1 {
-  width: 146.09px;
-  height: 32px;
-  margin-bottom: 32px;
-  position: relative;
-  margin-left: 25px;
-  top: 200px;
-}
 
-.footer p {
-  margin-bottom: 64px;
-  height: 105px;
-  width: 327px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  margin-left: 24px;
-  position: relative;
-  top: 200px;
-}
 
-.handles{
-  margin-left: 24px;
-  width: 100px;
-  height: 20px;
-  margin-bottom: 80px;
-  position: relative;
-  top: 150px;
-}
 
-/** TABLET VIEW**/
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/** Medium Devices **/
+
+@media only screen and  (min-width: 768px) {
   .container {
     max-width: 100vw;
     width: 768px;
@@ -247,7 +262,7 @@ button {
     height: 32px;
     margin-bottom: 150px;
     font-weight: bold;
-    font-size: medium;
+    font-size: 20px;
   }
 
   .phone img {
@@ -291,7 +306,7 @@ button {
     width: 696px;
     height: 600px;
     margin-left: 33px;
-    margin-bottom: 183px;
+    margin-bottom: 100px;
   }
 
   .showcase-pattern {
@@ -398,12 +413,12 @@ button {
   .btn-1 {
     margin-bottom: 16px;
   }
-}
+
 
 
 .footer{
 position:absolute ;
-top: 820px;
+top: 950px;
 }
 
 .footer h1{
@@ -431,19 +446,26 @@ height: 20px;
 position: relative;
 bottom: 50px;
 }
+}
 
-/**DESKTOP VIEW**/
+/**Large Screens**/
 @media only screen and (min-width: 1024px) {
   body {
     background-image: url("../assets/bg-main-desktop.png");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
     font-family: "IBM Plex Sans";
     margin: 0;
   }
 
   .container {
-    margin-left: 165px;
-    margin-right: 165px;
-    width: 1440px;
+    margin-left: 65px;
+    margin-right: 65px; 
+    width: 100vw;
+    min-width: 950px;
+    position: relative;
+   
    
   }
 
@@ -464,7 +486,9 @@ bottom: 50px;
     margin-bottom: 127px;
     font-size: 30px;
     font-family: "IBM Plex Sans";
-    margin-top: 62px;
+    margin-top: 25px;
+    position: relative;
+    
   }
 
  
@@ -474,8 +498,8 @@ bottom: 50px;
     position: absolute;
     width: 312px;
     height: 468px;
-    left: 1128px;
-    top: -40px;
+    left: 900px;
+    top: -80px;
   }
 
   .title {
@@ -504,13 +528,14 @@ bottom: 50px;
     line-height: 34px;
     color: #191826;
     margin-bottom: 321px;
+    top: 50px;
   }
 
   .showcase {
     width: 1110px;
     height: 600px;
     background-color: #191826;
-    margin-bottom: 10px;
+    
   }
 
   .section-one {
@@ -521,7 +546,7 @@ bottom: 50px;
     position: relative;
     width: 312px;
     height: 468px;
-    left: 336px;
+    left: 180px;
   }
 
   .phone img {
@@ -537,7 +562,7 @@ bottom: 50px;
     width: 446px;
     height: 625px;
     left: 550px;
-    top: 100px;
+    top: 80px;
     background-color: #fa7453;
     border-radius: 12px;
   }
@@ -575,7 +600,8 @@ bottom: 50px;
   }
 
   .btn-1 {
-    margin-bottom: 16px;
+    margin-bottom: 25px;
+    margin-top: 30px;
   }
 
   #head {
@@ -636,31 +662,37 @@ bottom: 50px;
     display: flex;
     position: absolute;
     top: 1200px;
-    bottom: 0;
+    
   }
 
   .footer p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    margin-top: 25px;
-    margin-left: 137px;
-    width: 366px;
+    margin-top: 5px;
+    left: 137px;
+    width: 100px;
     height: 79px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
     
   }
 
   .footer h1 {
     width: 146px;
     height: 32px;
-    margin-top: 20px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 0px;
   }
 
   .handles {
-    margin-top: 50px;
-    margin-left: 359px;
+    margin-top: 100px;
+    left: 400px;
     width: 459px;
     display: flex;
+    position: relative;
   }
 
   .handles img {
