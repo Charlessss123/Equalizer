@@ -173,13 +173,26 @@ html {
     margin-left: 36px;
   }
   
-   button .btn-1:hover {
+    .btn-1:hover {
     background-color: #66e2dc;
-    color: #66e2dc;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btn-1{
+    background-color: #191826;
+    color: whitesmoke;
+  }
+
+  .btn-2{
+    background-color: #fcfaf9;
+    color: black;
   }
   
   .btn-2:hover {
-    background-color: #fa7453;
+    background-color: #FFB964;
+    cursor: pointer;
+    
   }
   
   .btn-info1 {
@@ -386,13 +399,7 @@ html {
     right: 15px;
   }
 
-  .btn-1:hover {
-    background-color: #66e2dc;
-  }
-
-  .btn-2:hover {
-    background-color: #fa7453;
-  }
+ 
 
   .btn-info1 {
     width: 142px;
@@ -632,13 +639,7 @@ bottom: 50px;
     margin-left: 54px;
   }
 
-  .btn-1:hover {
-    background-color: #66e2dc;
-  }
-
-  .btn-2:hover {
-    background-color: #fa7453;
-  }
+  
 
   .btn-info1 {
     width: 142px;
