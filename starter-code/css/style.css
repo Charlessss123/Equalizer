@@ -60,7 +60,7 @@ html {
   .title {
     width: 327px;
     height: 144px;
-    font-family: "IBM Plex Sans";
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -166,7 +166,7 @@ html {
   #head {
     width: 302px;
     height: 40px;
-    font-family: "IBM Plex Sans";
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -196,6 +196,7 @@ html {
   .btn-2:hover {
     background-color: #FFB964;
     cursor: pointer;
+    border-color: #FFB964;
     
   }
 
@@ -278,12 +279,16 @@ html {
   .container {
     width: 100vw;
    min-width: 768px;
-   margin-left: 40px;
+   left: 40px;
+   
+   position: relative;
+   margin: 0%;
+
   }
 
   body {
     background-image: url("../assets/bg-main-tablet.png");
-    font-family: "IBM Plex Sans";
+    font-family: 'IBM Plex Sans', sans-serif;
     box-sizing: border-box;
   }
 
@@ -362,8 +367,7 @@ html {
     top: 150px;
   }
 
-  .card-content {
-    
+  .card-content { 
     color: #fcfaf9;
   }
 
@@ -377,7 +381,7 @@ html {
   #head {
     width: 302px;
     height: 40px;
-    font-family: "IBM Plex Sans";
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -458,7 +462,7 @@ margin-left: 34px;
 display: inline-block;
 margin-left: 33px;
 margin-right: 230px; 
-font-family: 'IBM Plex Sans';
+font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 26px;
@@ -482,15 +486,17 @@ bottom: 50px;
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-    font-family: "IBM Plex Sans";
-    margin: 0;
-  }
-
-  .container {
+  font-family: 'IBM Plex Sans', sans-serif;
+    /* margin: 0; */
     margin-left: 65px;
     margin-right: 65px; 
     width: 100vw;
-    min-width: 950px;
+  }
+
+  .container {
+   
+   
+    /* min-width: 950px; */
     position: relative;
    
    
@@ -513,7 +519,7 @@ bottom: 50px;
     font-weight: 700;
     margin-bottom: 127px;
     font-size: 30px;
-    font-family: "IBM Plex Sans";
+    font-family: 'IBM Plex Sans', sans-serif;
     margin-top: 25px;
     position: relative;
     
@@ -534,7 +540,7 @@ bottom: 50px;
     width: 1000px;
     height: 176px;
 
-    font-family: "IBM Plex Sans";
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 88px;
@@ -634,7 +640,7 @@ bottom: 50px;
   #head {
     width: 333px;
     height: 52px;
-    font-family: "IBM Plex Sans";
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
